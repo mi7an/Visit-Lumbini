@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+}
+.sec1 {
+  background-image: url(images/img1.jpg);
+  height: 100dvh;
+}
+.sec2 {
+  background-image: url(images/img2.jpg);
+  height: 60dvh;
+}
+.sec3 {
+  background-image: url(images/img3.jpeg);
+  height: 60dvh;
+}
+.sec4 {
+  background-image: url(images/img4.jpeg);
+  height: 60dvh;
+}
+.sec1,
+.sec2,
+.sec3,
+.sec4 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+}
+.sec1t,
+.sec2t,
+.sec3t,
+.sec4t {
+  color: white;
+  text-transform: uppercase;
+}
+span {
+  background-color: #37353e;
+  padding: 15px;
+  font-size: 3.5rem;
+  letter-spacing: 5px;
+}
+.section {
+  padding: 50px 10dvw;
+  min-height: 40dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #37353e;
+  background-color: white;
+}
+
+.section > h2 {
+  font-size: 2.5rem;
+  margin: 1.5rem 0;
+}
+.section > p {
+  font-size: 1.3rem;
+  text-align: center;
+  line-height: 25px;
+}
+p > strong {
+  font-size: 1.3rem;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5dvh;
+}
+.footer a {
+  text-decoration: none;
+  color: #37353e;
+}
+@media (max-width: 940px) {
+  * {
+    font-size: 12px;
+  }
+}
+@media (max-width: 660px) {
+  * {
+    font-size: 9px;
+  }
+}
+@media (max-width: 430px) {
+  * {
+    font-size: 10px;
+  }
+  span {
+    font-size: 2.3rem;
+    padding: 10px;
+  }
+  .section > h2 {
+    font-size: 1.8rem;
+  }
+  .section > p {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 375px) {
+  * {
+    font-size: 8px;
+  }
+  span {
+    font-size: 2.2rem;
+    padding: 10px;
+  }
+  .section > h2 {
+    font-size: 1.7rem;
+    margin: 1.2rem 0;
+  }
+  .section > p {
+    font-size: 1.3rem;
+    line-height: 13px;
+  }
+  .section {
+    padding: 30px 5dvw;
+  }
+}
+@media (max-width: 320px) {
+  * {
+    font-size: 6px;
+  }
+  span {
+    font-size: 2rem;
+    padding: 8px;
+  }
+  .section > h2 {
+    font-size: 1.7rem;
+  }
+  .section > p {
+    font-size: 1.2rem;
+    line-height: 10px;
+  }
+  .section {
+    padding: 30px 5dvw;
+    min-height: 40dvh;
+  }
+}
